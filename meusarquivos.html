@@ -1,0 +1,115 @@
+
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+ 	 <title>Meus arquivos</title>
+
+   <style>
+        figure.ele{
+         text-align:center;
+        }
+
+        figure.espa{
+          text-align:center;
+        }
+
+        figure.jeito{
+          text-align:center;
+        }
+
+        figure.meio{
+          text-align:center;
+        }
+
+        figure.rolo{
+          text-align:center;
+        }
+
+   </style>
+
+   <script>
+     function click() {
+if (event.button==2||event.button==3) {
+ oncontextmenu='return false';
+  }
+}
+document.onmousedown=click
+document.oncontextmenu = new Function("return false;")
+   </script>
+
+  </head>
+
+  <body bgcolor="#ebdde3">
+
+  <p align="center">
+  <font size="6" color="#c73850" face="Arial">Minhas coisas</font>
+  </p>
+
+  <font face="Arial" color="#0074b8" size="4"><p align="center"> Aqui é onde ficarão as suas coisas, documentos, vídeos, músicas, imagens, interaja com as pastas, com apenas um clique. </font> <br> <br> <font face="Arial" color="#383d3b"> <font size="5" face="Arial" color="#c73850">"Seus arquivos, suas coisas".</font> 
+
+        <p align="center">
+        <font size="5" face="Arial" color="#7d58b0">Observações:</font> <font size="4" color="#016f73" face="Arial">ainda estamos na versão beta 1.0 os nossos serviços ainda estão em desenvolvimento</font>
+        </p>
+      
+      <br>
+
+      <header>
+
+      <div id="interface">
+      <hgroup>
+      <figure class="ele">
+      <a href="documento.html" target="_blank"> 
+      <img src="directory_closed.ico">
+      <figcaption> Documentos </figcaption> </a>
+      </figure>
+      </hgroup>
+
+      <br>
+
+      <hgroup>
+      <figure class="espa">
+      <a href="video.html" target="_blank">
+      <img src="directory_closed.ico"> 
+      <figcaption> Vídeos </figcaption> </a>
+      </figure>
+      </hgroup>
+      
+      <br>
+
+     <hgroup>
+     <figure class="jeito">
+      <a href="musica.html" target="_blank"> 
+      <img src="directory_closed.ico">
+      <figcaption> Músicas </figcaption> </a>
+     </figure>
+     </hgroup>
+
+     <br>
+
+     <hgroup>
+     <figure class="meio">
+      <a href="imagem.html" target="_blank"> 
+      <img src="directory_closed.ico">
+      <figcaption>Imagens</figcaption> </a>
+     </figure>
+     </hgroup>
+
+     <br>
+     
+     <hgroup>
+     <figure class="rolo">
+      <a href="lixo.html" target="_blank">
+      <img src="recycle_bin_empty.ico">
+      <figcaption>Lixeira</figcaption> </a>
+     </figure>
+     </hgroup>
+    
+
+    </header>
+
+     <br>
+  </div>
+  </body>
+  </html>
+
